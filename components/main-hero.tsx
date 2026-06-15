@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const HeroSection2 = () => {
   return (
-    <section data-aos="fade-right" id="hero-section" className="w-full py-8 pt-25 mx-auto">
+    <section id="hero-section" className="w-full py-8 pt-25 mx-auto">
       <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid items-center lg:grid-cols-2 gap-2 ">
           <div className="flex flex-col gap-6 items-center lg:items-start">
