@@ -72,6 +72,12 @@ export function MobileNavDialog() {
                             >
                                 <User2Icon className="size-5" /> <span>Socail Media Handling</span>
                             </Link>
+                            <Link onClick={() => setOpen(false)}
+                                href="/#contact-us"
+                                className="w-full flex items-center  gap-3 px-6 py-3 text-left bg-accent transition-colors"
+                            >
+                                <Phone className="size-5" /> <span>Contact us</span>
+                            </Link>
                         </nav>
                         <div className="shrink-0 p-6 pt-0">
                             <div className="flex flex-col gap-3">

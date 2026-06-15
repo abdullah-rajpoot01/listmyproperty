@@ -43,9 +43,11 @@ const SocailMedia = () => {
                             </div>
                         </li>
                     </ul>
+                    <a href="tel:+23046954705">
                     <Button className="mt-8 w-full">
-                        Add Social Media Posting<ArrowRight />
+                        Call Now To Add Social Media Posting<ArrowRight />
                     </Button>
+                    </a>
                 </div>
                 {/* Media 1 Desktop */}
                 <div className="hidden rounded-xl bg-muted  md:block relative w-full aspect-square" >

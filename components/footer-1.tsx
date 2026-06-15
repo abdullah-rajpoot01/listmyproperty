@@ -20,6 +20,7 @@ const Footer1 = () => {
       { label: "Pricing", url: "/#pricing" },
       { label: "Social Media Management", url: "/#socail-media-handling" },
       { label: "How We Works", url: "/#how-it-works" },
+      { label: "Contact us", url: "/#contact-us" },
       ],
     },
     {

@@ -59,7 +59,7 @@ const plans = [
 
 const Pricing = () => {
     return (
-        <div id="pricing" className="px-6 py-20">
+        <div id="pricing" className="px-6 py-10">
             <h2 className="text-center font-medium text-4xl tracking-[-0.04em] sm:text-[2.75rem]">
                 Our Plans
             </h2>

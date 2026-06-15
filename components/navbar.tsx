@@ -25,12 +25,14 @@ const Navbar = () => {
         <NavMenu className="hidden md:block" />
 
         <div className="flex items-center gap-3">
-          <Button onClick={() => router.push("/contact-us")}
-            className="hidden sm:inline-flex hover:animate-pulsing hover:animate-iteration-count-infinite"
-            variant="outline"
-          >
-            Contact Us
-          </Button>
+          <a href="https://wa.me/923046954705">
+            <Button
+              className="hidden sm:inline-flex hover:animate-pulsing hover:animate-iteration-count-infinite"
+              variant="outline"
+            >
+              Chat On Whatsapp
+            </Button>
+          </a>
           <a href="tel:+923460881219">
             <Button className="hidden  sm:inline-flex hover:animate-pulsing hover:animate-iteration-count-infinite">Call Now</Button>
           </a>

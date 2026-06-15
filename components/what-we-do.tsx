@@ -47,7 +47,7 @@ const features = [
 ];
 const WhatWeDo = () => {
   return (
-    <div id="what-we-handle" className="px-6 py-20">
+    <div id="what-we-handle" className="px-6 py-10">
       <h2 className="mx-auto max-w-3xl text-center font-medium text-4xl tracking-[-0.045em] sm:text-[2.75rem]">
          What We Handle
       </h2>

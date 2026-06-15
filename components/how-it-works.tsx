@@ -27,7 +27,7 @@ const steps = [
 
 const HowItWorks = () => {
   return (
-    <section id="how-it-works" className="px-6 py-20">
+    <section id="how-it-works" className="px-6 py-10">
       <h2 className="text-center font-medium text-4xl tracking-[-0.045em] sm:text-[2.75rem]">
         How It Works
       </h2>

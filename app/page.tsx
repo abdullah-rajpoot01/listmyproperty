@@ -1,3 +1,4 @@
+import Contact from "@/components/contact-us";
 import HowItWorks from "@/components/how-it-works";
 import HeroSection2 from "@/components/main-hero";
 import Pricing from "@/components/pricing";
@@ -12,6 +13,7 @@ export default function Home() {
       <Pricing/>
       <SocailMedia/>
       <HowItWorks/>
+      <Contact/>
     </div>
   );
 }
