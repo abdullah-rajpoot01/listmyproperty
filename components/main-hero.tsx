@@ -32,7 +32,7 @@ const HeroSection2 = () => {
                   Call Now
                 </Button>
               </Link>
-              <Link href={"https://wa.me/923046954705"} >
+              <Link href={"https://wa.me/923046954705"} target="_blank">
                 <Button
                   size="lg" variant={"outline"}
                   className="h-10 px-8 cursor-pointer hover:animate-tada hover:animate-iteration-count-once"

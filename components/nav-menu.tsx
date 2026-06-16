@@ -15,11 +15,6 @@ export const NavMenu = (props: ComponentProps<typeof NavigationMenu>) => (
     <NavigationMenuList className="space-x-0 data-[orientation=vertical]:flex-col data-[orientation=vertical]:items-start data-[orientation=vertical]:justify-start">
       <NavigationMenuItem>
         <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-          <Link href="/">Home</Link>
-        </NavigationMenuLink>
-      </NavigationMenuItem>
-      <NavigationMenuItem>
-        <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
           <Link href="/#what-we-handle">Our Services</Link>
         </NavigationMenuLink>
       </NavigationMenuItem>
@@ -43,7 +38,7 @@ export const NavMenu = (props: ComponentProps<typeof NavigationMenu>) => (
       </NavigationMenuItem>
       <NavigationMenuItem>
         <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-          <Link href="/#contact-us">How We Works</Link>
+          <Link href="/#contact-us">Contact</Link>
         </NavigationMenuLink>
       </NavigationMenuItem>
     </NavigationMenuList>

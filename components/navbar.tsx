@@ -7,7 +7,6 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 const Navbar = () => {
-  const router = useRouter();
   return (
     <nav className="fixed top-3 z-50 left-1/2 -translate-x-1/2 h-16 w-[95%] max-w-6xl  border border-border/85 bg-background shadow-xs/3">
       <div className="flex h-full items-center justify-between px-4  ">
