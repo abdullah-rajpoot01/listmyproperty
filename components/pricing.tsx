@@ -15,7 +15,7 @@ const plans = [
             "Basic title + description formatting",
             "Standard 24–48h delivery",
         ],
-        buttonText: "Start Basic Plan",
+        buttonText: "Chat On Whatsapp To Start",
     },
     {
         name: "Standard",
@@ -28,7 +28,7 @@ const plans = [
             "Listing updates included",
             "Faster priority handling",
         ],
-        buttonText: "Call Now To Start",
+        buttonText: "Chat On Whatsapp To Start",
     },
     {
         name: "Growth",
@@ -41,7 +41,7 @@ const plans = [
             "Priority processing",
             "Better turnaround speed",
         ],
-        buttonText: "Call Now To Start",
+        buttonText: "Chat On Whatsapp To Start",
     },
     {
         name: "Pro",
@@ -53,7 +53,7 @@ const plans = [
             "Bulk handling support",
             "Agency-level priority",
         ],
-        buttonText: "Call Now To Start",
+        buttonText: "Chat On Whatsapp To Start",
     },
 ];
 
@@ -99,7 +99,7 @@ const Pricing = () => {
                                 </li>
                             ))}
                         </ul>
-                        <a href="tel:+923046954705">
+                        <a href="https://wa.me/923046954705" target="_blank">
                             <Button
                                 className="mt-6 w-full"
                                 size="lg"
