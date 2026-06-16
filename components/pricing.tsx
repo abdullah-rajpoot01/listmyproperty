@@ -28,7 +28,7 @@ const plans = [
             "Listing updates included",
             "Faster priority handling",
         ],
-        buttonText: "Start Standard Plan",
+        buttonText: "Call Now To Start",
     },
     {
         name: "Growth",
@@ -41,7 +41,7 @@ const plans = [
             "Priority processing",
             "Better turnaround speed",
         ],
-        buttonText: "Start Growth Plan",
+        buttonText: "Call Now To Start",
     },
     {
         name: "Pro",
@@ -53,7 +53,7 @@ const plans = [
             "Bulk handling support",
             "Agency-level priority",
         ],
-        buttonText: "Start Pro Plan",
+        buttonText: "Call Now To Start",
     },
 ];
 
@@ -99,13 +99,15 @@ const Pricing = () => {
                                 </li>
                             ))}
                         </ul>
-                        <Button
-                            className="mt-6 w-full"
-                            size="lg"
-                            variant={plan.isPopular ? "default" : "outline"}
-                        >
-                            {plan.buttonText}
-                        </Button>
+                        <a href="tel:+923046954705">
+                            <Button
+                                className="mt-6 w-full"
+                                size="lg"
+                                variant={plan.isPopular ? "default" : "outline"}
+                            >
+                                {plan.buttonText}
+                            </Button>
+                        </a>
                     </div>
                 ))}
             </div>
